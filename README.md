@@ -1,6 +1,6 @@
 # Turismo-em-Olinda
 
-App sobre turismo em Olinda-PE
+App sobre turismo em Olinda-PE com React-Native
 
 Usei app Expo
 
