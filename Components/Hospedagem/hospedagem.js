@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, ScrollView, Image} from 'react-native';
+import {LinearGradient} from 'expo-linear-gradient';
 
 import pousada1 from '../../assets/amparo1.jpg';
 import pousada2 from '../../assets/amparo2.jpg';
@@ -16,7 +17,9 @@ export default function Restaurante (){
     return(
 
         <ScrollView>
-        <View style={estilo.container}>
+        <LinearGradient
+        colors={['#3e6852', '#073196'  ]}
+        style={estilo.container}>
 
         <Text style={estilo.titulo}>Pousadas e Hoteis em Olinda</Text>
         <Text style={estilo.subtitulo}>Olinda conta com excelentes hoteis e pousadas cujos
@@ -62,7 +65,7 @@ export default function Restaurante (){
         </View>
 
 
-        </View>
+        </LinearGradient>
 
         </ScrollView>
     )

@@ -1,5 +1,7 @@
 import React from 'react';
 import {View, Text, Image, ScrollView} from 'react-native';
+import {LinearGradient} from 'expo-linear-gradient';
+
 
 import milagre from '../../assets/milagres.jpg';
 
@@ -14,8 +16,9 @@ import estilo from './estilo';
 export default function Restaurante (){
     return(
 
-        
-        <View style={estilo.container}>
+        <LinearGradient
+        colors={['#073196','#3e6852' ]}
+        style={estilo.container}>
         <ScrollView>
 
         <Text style={estilo.titulo}>Passeios em Olinda</Text>
@@ -46,7 +49,7 @@ export default function Restaurante (){
         </View>
         
         </ScrollView>
-        </View>
+        </LinearGradient>
 
        
     )
