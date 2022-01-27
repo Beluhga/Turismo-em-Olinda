@@ -2,7 +2,6 @@ import React from 'react';
 import {View, Text, ScrollView, Image} from 'react-native';
 import {LinearGradient} from 'expo-linear-gradient';
 
-
 import gosta1 from '../../assets/restaurante1.jpg';
 import gosta2 from '../../assets/restaurante1-1.jpg';
 

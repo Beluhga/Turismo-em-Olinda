@@ -1,32 +1,21 @@
 {
-  "expo": {
-    "name": "Olinda",
-    "slug": "Olinda",
+  "expo":{
+    "name": "Olinda Turismo",
+    "icon": "./assets/icone.png",
+    "slug": "olinda-turismo",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "splash":{
+      "image": "./assets/splash.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#00a99e"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
+    "android":{
+      "package": "com.devup.olindaturismo",
+      "versionCode": 1
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "ios":{
+      "bundleIdentifier": "com.devup.olindaturismo",
+      "buildNumber": "1.0.0"
     }
   }
 }
