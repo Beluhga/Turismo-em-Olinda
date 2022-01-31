@@ -45,11 +45,11 @@ const estilo= StyleSheet.create ({
     },
 
     img:{
-        width: 300,
+        width: 290,
         height: 80,
-        marginHorizontal: 5,
+        marginHorizontal: 4,
         borderWidth: 2,
-        borderColor: "black"
+        borderColor: "black",
 
     },
 

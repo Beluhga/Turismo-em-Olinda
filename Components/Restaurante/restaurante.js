@@ -2,15 +2,6 @@ import React from 'react';
 import {View, Text, ScrollView, Image} from 'react-native';
 import {LinearGradient} from 'expo-linear-gradient';
 
-import gosta1 from '../../assets/restaurante1.jpg';
-import gosta2 from '../../assets/restaurante1-1.jpg';
-
-import tonho1 from '../../assets/restaurante2.jpg';
-import tonho2 from '../../assets/restaurante2-1.jpg';
-
-import gamelera1 from '../../assets/restaurante3.jpg';
-import gamelera2 from '../../assets/restaurante3-1.jpg';
-
 import estilo from './estilo';
 
 export default function Restaurante (){
@@ -35,8 +26,8 @@ export default function Restaurante (){
         <View style={estilo.card}>
 
             <ScrollView style={estilo.scroll} horizontal={true}>
-            <Image source={gosta1} style={estilo.img}/>
-            <Image source={gosta2} style={estilo.img}  />
+            <Image source={require('../../assets/restaurante1.jpg')} style={estilo.img}/>
+            <Image source={require('../../assets/restaurante1-1.jpg')} style={estilo.img}  />
             </ScrollView>
 
             <Text style={estilo.tituloBox}>Pra Quem Gosta</Text>
@@ -44,19 +35,23 @@ export default function Restaurante (){
         </View>
 
         <View style={estilo.card}>
+
         <ScrollView style={estilo.scroll} horizontal={true}>
-        <Image source={tonho1} style={estilo.img} />
-        <Image source={tonho2} style={estilo.img} /> 
+        <Image source={require('../../assets/restaurante2.jpg')} style={estilo.img}/>
+        <Image source={require('../../assets/restaurante2-1.jpg')} style={estilo.img} />
         </ScrollView>
+
         <Text style={estilo.tituloBox}>Casa de Tonho</Text>
         <Text style={estilo.subtituloBox}>Localização: R. Cel. Alberto Lundgren, 582 - Bairro Novo, Olinda - PE</Text>
         </View>
 
         <View style={estilo.card}>
+
         <ScrollView style={estilo.scroll} horizontal={true}>
-        <Image source={gamelera1} style={estilo.img} />
-        <Image source={gamelera2} style={estilo.img} />
+        <Image source={require('../../assets/restaurante3.jpg')} style={estilo.img}/>
+        <Image source={require('../../assets/restaurante3-1.jpg')} style={estilo.img} />
         </ScrollView>
+        
         <Text style={estilo.tituloBox}>Restaurante Gameleira Regional</Text>
         <Text style={estilo.subtituloBox}>Localização: Av. Min. Marcos Freire, 1747 - Bairro Novo, Olinda - PE </Text>
         </View>

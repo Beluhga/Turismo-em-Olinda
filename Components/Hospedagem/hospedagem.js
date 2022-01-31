@@ -2,15 +2,6 @@ import React from 'react';
 import {View, Text, ScrollView, Image} from 'react-native';
 import {LinearGradient} from 'expo-linear-gradient';
 
-import pousada1 from '../../assets/amparo1.jpg';
-import pousada2 from '../../assets/amparo2.jpg';
-
-import hotel1 from '../../assets/hotel1.jpg';
-import hotel2 from '../../assets/hotel2.jpg';
-
-import maraberto1 from '../../assets/maraberto1.jpg';
-import maraberto2 from '../../assets/maraberto2.jpg';
-
 import estilo from './estilo';
 
 export default function Restaurante (){
@@ -31,8 +22,8 @@ export default function Restaurante (){
         <View style={estilo.card}>
 
             <ScrollView style={estilo.scroll} horizontal={true}>
-            <Image source={pousada1} style={estilo.img}/>
-            <Image source={pousada2} style={estilo.img}  />
+            <Image source={require('../../assets/amparo1.jpg')} style={estilo.img}/>
+            <Image source={require('../../assets/amparo2.jpg')} style={estilo.img}  />
             </ScrollView>
 
             <Text style={estilo.tituloBox}>Pousada do Amparo</Text>
@@ -41,21 +32,24 @@ export default function Restaurante (){
         </View>
 
         <View style={estilo.card}>
+
         <ScrollView style={estilo.scroll} horizontal={true}>
-        <Image source={hotel1} style={estilo.img} />
-        <Image source={hotel2} style={estilo.img} /> 
+        <Image source={require('../../assets/hotel1.jpg')} style={estilo.img} />
+        <Image source={require('../../assets/hotel2.jpg')} style={estilo.img} /> 
         </ScrollView>
+
         <Text style={estilo.tituloBox}>Hotel Costeiro</Text>
         <Text style={estilo.subtituloBox}>Localização: Av. Min. Marcos Freire, 681 - Bairro Novo, Olinda - PE</Text>
         <Text style={estilo.subtituloBox}>Valor Médio: R$ 211,00</Text>
-
         </View>
 
         <View style={estilo.card}>
+
         <ScrollView style={estilo.scroll} horizontal={true}>
-        <Image source={maraberto1} style={estilo.img} />
-        <Image source={maraberto2} style={estilo.img} />
+        <Image source={require('../../assets/maraberto1.jpg')} style={estilo.img} />
+        <Image source={require('../../assets/maraberto2.jpg')} style={estilo.img} />
         </ScrollView>
+
         <Text style={estilo.tituloBox}>Hotel Mar Aberto Olinda</Text>
         <Text style={estilo.subtituloBox}>Localização: R. Manuel Borba, 228 - Varadouro, Olinda - PE </Text>
         <Text style={estilo.subtituloBox}>Valor Médio: R$ 327,00</Text>

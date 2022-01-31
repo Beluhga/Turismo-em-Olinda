@@ -2,15 +2,6 @@ import React from 'react';
 import {View, Text, Image, ScrollView} from 'react-native';
 import {LinearGradient} from 'expo-linear-gradient';
 
-
-import milagre from '../../assets/milagres.jpg';
-
-import artesanato from '../../assets/artesanato.jpg';
-
-import mirante from '../../assets/mirante.png';
-
-
-
 import estilo from './estilo';
 
 export default function Restaurante (){
@@ -31,19 +22,19 @@ export default function Restaurante (){
         <View style={estilo.card}>
         <Text style={estilo.tituloBox}>Mirante do Alto da Sé</Text>
         <Text style={estilo.subtituloBox}>Localização:R. Bpo. Coutinho - Carmo, Olinda - PE</Text>
-        <Image source={mirante} style={estilo.img}/>
+        <Image source={require('../../assets/milagres.jpg')} style={estilo.img}/>
         </View> 
 
         <View style={estilo.card}>
         <Text style={estilo.tituloBox}>Praia dos Milagres</Text>
         <Text style={estilo.subtituloBox}>Localização: R. Manuel Borba, S/N - Varadouro, Olinda - PE</Text>
-        <Image source={milagre} style={estilo.img} />
+        <Image source={require('../../assets/artesanato.jpg')} style={estilo.img} />
         </View>
 
         <View style={estilo.card}>
         <Text style={estilo.tituloBox}>Mercado de Artesanato Silva Pontual</Text>
         <Text style={estilo.subtituloBox}>Localização: R. Bpo. Coutinho, 669 - Carmo, Olinda - PE </Text>
-        <Image source={artesanato} style={estilo.img} />
+        <Image source={require('../../assets/mirante.png')} style={estilo.img} />
         </View>
 
         </View>
