@@ -27,4 +27,4 @@ para colocar a tela colorida so instalar o Gradient
 expo install expo-linear-gradient
 
 
-![Olinda](https://user-images.githubusercontent.com/82901722/150912513-9e98184f-eee4-4c41-b2e7-f05cf62946f0.gif)
+![20220127_011729(1)](https://user-images.githubusercontent.com/82901722/151303907-65b61916-d4a6-4c13-b841-fb3e008e20d8.gif)
