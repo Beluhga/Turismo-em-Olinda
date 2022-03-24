@@ -29,10 +29,10 @@ Pré-requisitos: npm / yarn
 # clonar repositório
 git clone https://github.com/Beluhga/Turismo-em-Olinda
 
-# entrar na pasta do projeto front end web
+# entrar na pasta do projeto Mobile
 cd Turismo-em-Olinda
 
-# executar o projeto
+# instala dependências
 npm install
 
 # executar o projeto
