@@ -27,10 +27,13 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/Beluhga/Campo-Minado
+git clone https://github.com/Beluhga/Turismo-em-Olinda
 
 # entrar na pasta do projeto front end web
-cd Campo-Minado
+cd Turismo-em-Olinda
+
+# executar o projeto
+npm install
 
 # executar o projeto
 Expo start
