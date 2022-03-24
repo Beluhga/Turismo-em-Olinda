@@ -1,30 +1,46 @@
 # Turismo-em-Olinda
 
-App sobre turismo em Olinda-PE com React-Native
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Beluhga/Turismo-em-Olinda/blob/main/LICENSE) 
 
-Usei app Expo
+# Sobre o projeto
 
-npm install -g expo-cli
+Turismo-em-Olinda é uma aplicação mobile.
 
-a barra de navegação usei o Bottom-tabs
+A aplicação consiste em fala os melhores pontos turístico, hoteis e restaurantes de Olinda. 
 
-npm install @react-navigation/native
-
-mais as bibliotecas
-
-expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community
-
-npm install @react-navigation/bottom-tabs
-
-caso de erro e so utilizar o
-
-npm install
-
-para criar um package.json
-
-para colocar a tela colorida so instalar o Gradient
-
-expo install expo-linear-gradient
-
+## Layout mobile
 
 ![20220127_011729(1)](https://user-images.githubusercontent.com/82901722/151303907-65b61916-d4a6-4c13-b841-fb3e008e20d8.gif)
+
+# Tecnologias utilizadas
+
+## Mobile
+
+- React Native
+- JavaScript
+- Expo
+
+# Como executar o projeto
+
+## Mobile
+Pré-requisitos: npm / yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/Beluhga/Campo-Minado
+
+# entrar na pasta do projeto front end web
+cd Campo-Minado
+
+# executar o projeto
+Expo start
+```
+
+# Autor
+
+Michael Fernando Silva de Albuquerque
+
+https://www.linkedin.com/in/michael-albuquerque-9443b21b9/
+
+
+
