@@ -6,7 +6,7 @@
 
 Turismo-em-Olinda é uma aplicação mobile.
 
-A aplicação consiste em fala os melhores pontos turístico, hoteis e restaurantes de Olinda. 
+A aplicação consiste em falar sobre os melhores pontos turísticos, hotéis e restaurantes de Olinda. Aqui foi onde aprendi a estilizar melhor meus conhecimentos e utilizar o React Navigation para poder migrar entre as páginas.
 
 ## Layout mobile
 
